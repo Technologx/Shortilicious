@@ -1,0 +1,19 @@
+<?php
+if( !defined('Shortilicious' ) ) {
+    header('HTTP/1.0 404 Not Found');
+    exit();
+}
+ini_set('display_errors', 0);
+?>
+<html>
+<head>
+<title><?php echo SITE_TITLE ?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../assets/default.css" />
+</head>
+<body>
+<div id="container">
+<div id="header">
+<a href="<?php echo SITE_URL ?>" ><img src="../imgs/logo.png" height="125px" width="200"></a>
+</div>
+<div id="content">
